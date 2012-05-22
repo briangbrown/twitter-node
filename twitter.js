@@ -1,8 +1,11 @@
 "use strict";
+console.log("Loaded twitter.js");
 var express = require('express');
 
 var app = express.createServer();
-app.listen(process.env.PORT);
+app.listen(process.env.PORT, function() {
+  console.log("Listening on " + process.env.PORT);
+});
 
 var tweets = [];
 

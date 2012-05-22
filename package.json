@@ -2,7 +2,8 @@
   "name": "twitter-node",
   "version": "0.0.1",
   "dependencies": {
-    "express": "2.5.9"
+    "express": "2.5.9",
+    "ejs": "0.7.1"
   },
   "engines": {
     "node": "0.6.x"
